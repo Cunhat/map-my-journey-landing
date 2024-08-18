@@ -1,0 +1,103 @@
+---
+import Layout from "./Layout.astro";
+---
+
+<Layout title="Terms of Service">
+  <main class="h-screen flex items-center flex-col container mx-auto bg-white text-left markdown">
+    <slot />
+  </main>
+   
+</Layout>
+<style is:global>
+  /* Markdown Styling */
+  .markdown {
+    @apply flex w-full flex-col items-start justify-start px-4 leading-relaxed text-black ;
+  }
+  .markdown h1 {
+    @apply mt-3 mb-4 text-3xl font-bold text-black;
+  }
+  .markdown h2 {
+    @apply mt-8 mb-4 text-2xl font-bold text-black;
+  }
+  .markdown h3 {
+    @apply mt-4 mb-2 text-xl font-medium text-black;
+  }
+  .markdown h4 {
+    @apply mt-2 mb-1 text-base font-medium text-black;
+  }
+  .markdown li {
+    @apply list-disc text-black;
+  }
+  .markdown ol > li {
+    @apply mb-2 list-decimal;
+  }
+  .markdown p {
+    @apply mb-4;
+  }
+  .markdown a > p {
+    @apply mb-0 text-sm;
+  }
+  .markdown .heading-link--hidden---effects {
+    @apply text-black hover:text-indigo-300;
+  }
+
+  .markdown code {
+    @apply break-words [direction:ltr] [unicode-bidi:embed] lg:break-normal;
+  }
+
+  .markdown code:not(.markdown pre code) {
+    @apply rounded border border-indigo-200 bg-indigo-200/40 px-0.5 py-[0.5px];
+  }
+
+  .markdown .remark-code-title {
+    @apply z-10 -mb-1 mt-3 w-full rounded-t-md border border-indigo-300/80 bg-[#191724] px-2 py-1 font-mono text-indigo-200;
+  }
+
+  .markdown pre {
+    @apply mx-auto mb-3 rounded border border-indigo-300/80 p-2 pl-3 font-mono shadow-xl sm:pt-2;
+  }
+
+  .markdown ol {
+    @apply w-full;
+  }
+
+  .markdown details {
+    @apply mt-2 w-full rounded-md border border-indigo-300 bg-[#191724] px-3 transition-all duration-300 ease-in-out;
+  }
+  .markdown details[open] {
+    @apply bg-indigo-200;
+  }
+  .markdown details pre {
+    @apply border-0 shadow-none;
+  }
+  .markdown details > summary {
+    @apply cursor-pointer text-[#A6ACCD];
+  }
+  .markdown summary {
+    @apply py-3;
+  }
+
+  .markdown p > img {
+    @apply mt-8 text-sm;
+  }
+  .markdown table > tbody > tr > td > a {
+    overflow-wrap: anywhere;
+  }
+  .markdown table {
+    @apply max-w-full table-fixed;
+  }
+  .markdown table > tbody > tr > td {
+    @apply align-top;
+  }
+  .markdown blockquote a {
+    @apply text-white;
+  }
+
+  .embed {
+    @apply relative mb-2 h-0 w-full pb-[56.25%];
+  }
+
+  .embed iframe {
+    @apply absolute top-0 left-0 h-full w-full;
+  }
+</style>
