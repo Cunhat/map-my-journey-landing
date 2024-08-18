@@ -5,15 +5,15 @@ import { Mail } from 'lucide-react';
 ---
 
 <Layout title="Welcome to Astro.">
-	<main class="h-screen flex flex-col bg-sky-500">
-		<nav class=" flex items-center justify-between p-3 container mx-auto">
+	<main class="h-screen flex flex-col bg-sky-500 container mx-auto pb-4">
+		<nav class="flex items-center justify-between p-3 container mx-auto">
 			<img src="/icon.png" alt="mmj-logo" class="w-[220px] object-contain" />
 		</nav>
-		<div class="flex-1  grid grid-cols-2 container mx-auto">
-			<div class=" flex flex-col h-full justify-center items-end">
+		<div class="flex-1 grid grid-rows-2 sm:grid-cols-2 sm:grid-rows-1">
+			<div class=" flex flex-col h-full justify-center items-center sm:items-end">
 				<img src="/frame.png" alt="mmj-screen-1" class="w-[70%] h-auto object-contain" />
 			</div>
-			<div class="flex flex-col items-center justify-center">
+			<div class="flex flex-col items-center sm:justify-center">
 				<div class="w-[60%] flex flex-col gap-6">
 					<img src="/icon-app.png" alt="mmj-logo" class="w-20 h-20 object-contain shadow-xl rounded-2xl border border-white" />
 					<div class="flex flex-col gap-3">
@@ -25,20 +25,16 @@ import { Mail } from 'lucide-react';
 			</div>
 			
 		</div>
-		<div class="h-10 bg-sky-500 flex items-center p-4 gap-3">
+		<div class="sm:h-10 bg-sky-500 flex flex-col sm:flex-row items-center justify-center p-6 gap-3">
 			<p class="text-white text-sm">© 2024 Map My Journey</p>
-			
-			<a href = "mailto:user@example.com?subject=Subject&body=message%20goes%20here" class="text-white text-sm ml-auto flex items-center gap-2 underline"
-			>
+			<a href = "mailto:user@example.com?subject=Subject&body=message%20goes%20here" class="text-white text-sm sm:ml-auto flex items-center gap-2 underline">
 				<p>Contact Us</p>
 			</a>
-			<a class="text-white text-sm  flex items-center gap-2 underline"
-			>
+			<a class="text-white text-sm flex items-center gap-2 underline">
 				<p class="">Terms of Service</p>
 			</a>
-			<a class="text-white text-sm  flex items-center gap-2 underline"
-			>
-			<p class="text-white text-sm">Privacy Policy</p>
+			<a class="text-white text-sm  flex items-center gap-2 underline">
+				<p class="text-white text-sm">Privacy Policy</p>
 			</a>
 			
 		</div>
