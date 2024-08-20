@@ -3,8 +3,15 @@ import Layout from "./Layout.astro";
 ---
 
 <Layout title="Terms of Service">
-  <main class="h-screen flex items-center flex-col container mx-auto bg-white text-left markdown">
-    <slot />
+  <main class="h-screen bg-neutral-50 overflow-auto">
+    <nav class="flex items-center justify-between p-3 bg-sky-500">
+			<a href="/">
+        <img src="/icon.png" alt="mmj-logo" class="w-[220px] object-contain" />
+      </a>
+		</nav>
+    <div class="flex items-center flex-col container mx-auto text-left markdown py-8 px-2">
+      <slot />
+    </div>
   </main>
    
 </Layout>
@@ -34,8 +41,8 @@ import Layout from "./Layout.astro";
   .markdown p {
     @apply mb-4;
   }
-  .markdown a > p {
-    @apply mb-0 text-sm;
+  .markdown a {
+    @apply mb-0 text-base underline underline-offset-2 text-sky-600;
   }
   .markdown .heading-link--hidden---effects {
     @apply text-black hover:text-indigo-300;

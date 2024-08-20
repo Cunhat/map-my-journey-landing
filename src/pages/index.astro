@@ -5,38 +5,40 @@ import { Mail } from 'lucide-react';
 ---
 
 <Layout title="Map My Journey">
-	<main class="h-screen flex flex-col bg-sky-500 container mx-auto pb-4">
-		<nav class="flex items-center justify-between p-3 container mx-auto">
+	<main class="h-screen bg-sky-500">
+		<div class="h-full container mx-auto pb-4 flex flex-col">	
+		<nav class="flex items-center justify-between p-3">
 			<img src="/icon.png" alt="mmj-logo" class="w-[220px] object-contain" />
 		</nav>
-		<div class="flex-1 grid grid-rows-2 sm:grid-cols-2 sm:grid-rows-1">
-			<div class=" flex flex-col h-full justify-center items-center sm:items-end">
+		<div class="flex-1 grid grid-rows-2 md:grid-cols-2 md:grid-rows-1">
+			<div class=" flex flex-col h-full justify-center items-center md:items-end">
 				<img src="/frame.png" alt="mmj-screen-1" class="w-[70%] h-auto object-contain" />
 			</div>
-			<div class="flex flex-col items-center sm:justify-center">
+			<div class="flex bg-sky-500 flex-col items-center md:justify-center">
 				<div class="w-[60%] flex flex-col gap-6">
 					<img src="/icon-app.png" alt="mmj-logo" class="w-20 h-20 object-contain shadow-xl rounded-2xl border border-white" />
 					<div class="flex flex-col gap-3">
 						<h3 class="text-left text-white text-5xl font-bold">A better way <br>to explore the world!</h3>
 						<h3 class="text-left text-white text-base">Pick your places, plan your days, <br>save the best spots, and start exploring!</h3>
 					</div>
-					<img src="/apple.avif" alt="mmj-logo" class="w-[200px]  object-contain justify-start" />
+					<img src="/apple.avif" alt="mmj-logo" class="w-[200px]  object-contain justify-start " />
 				</div>
 			</div>
 			
 		</div>
-		<div class="sm:h-10 bg-sky-500 flex flex-col sm:flex-row items-center justify-center p-6 gap-3">
-			<p class="text-white text-sm">© 2024 Map My Journey</p>
-			<a href = "mailto:user@example.com?subject=Subject&body=message%20goes%20here" class="text-white text-sm sm:ml-auto flex items-center gap-2 underline">
+		<div class="md:h-10 bg-sky-500 flex flex-col md:flex-row items-center justify-center p-6 gap-3">
+			<p class="text-white text-sm">© 2024 MapMyJourney</p>
+			<a href = "mailto:user@example.com?subject=Subject&body=message%20goes%20here" class="text-white text-sm sm:ml-auto flex items-center gap-2 underline underline-offset-2">
 				<p>Contact Us</p>
 			</a>
-			<a href="/terms" class="text-white text-sm flex items-center gap-2 underline">
+			<a href="/terms" class="text-white text-sm flex items-center gap-2 underline underline-offset-2">
 				<p class="">Terms of Service</p>
 			</a>
-			<a class="text-white text-sm  flex items-center gap-2 underline">
+			<a href="" class="text-white text-sm  flex items-center gap-2 underline underline-offset-2">
 				<p class="text-white text-sm">Privacy Policy</p>
 			</a>
 			
 		</div>
+	</div>
 	</main>
 </Layout>
