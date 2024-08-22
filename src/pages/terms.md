@@ -55,7 +55,7 @@ The App is provided on an "as is" and "as available" basis. We disclaim all warr
 
 ## 9. Limitation of Liability
 
-To the fullest extent permitted by law, [App Name] shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from:
+To the fullest extent permitted by law, MapMyJourney shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from:
 Your access to or use of the App.
 Any conduct or content of any third party on the App.
 Unauthorized access, use, or alteration of your transmissions or content.
@@ -74,6 +74,6 @@ We reserve the right to modify these Terms at any time. Any changes will be effe
 
 ## 13. Contact Information
 
-If you have any questions about these Terms, please contact us at [Your Contact Information].
+If you have any questions about these Terms, please contact us at mapmyjourney.info@gmail.com.
 
 MyMapJourney is committed to providing a safe and enjoyable experience. Thank you for using our App!

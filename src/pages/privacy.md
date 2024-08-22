@@ -4,7 +4,7 @@ layout: "../layouts/Mdx.astro"
 
 # Privacy Policy
 
-**Effective Date:** [Insert Date]
+**Effective Date:** 22/08/2024
 
 ## 1. Introduction
 
@@ -57,7 +57,7 @@ You have the following rights regarding your data:
 - **Right to Object:** You can object to the processing of your data for specific purposes.
 - **Right to Withdraw Consent:** If processing is based on consent, you may withdraw it at any time.
 
-To exercise any of these rights, please contact us at [dummyemail@domain.com].
+To exercise any of these rights, please contact us at mapmyjourney.info@gmail.com.
 
 ## 8. Changes to This Policy
 
@@ -65,4 +65,4 @@ We may update this privacy policy from time to time. If we make significant chan
 
 ## 9. Contact Us
 
-If you have any questions or concerns about this privacy policy, please contact us at [dummyemail@domain.com].
+If you have any questions or concerns about this privacy policy, please contact us at mapmyjourney.info@gmail.com.
